@@ -1,0 +1,31 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: transparent;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar .logo img {
+  height: 80px;
+  mix-blend-mode: color-burn;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar .nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #FFF8E1;
+  cursor: pointer;
+}
